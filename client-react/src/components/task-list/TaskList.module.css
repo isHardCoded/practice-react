@@ -1,0 +1,30 @@
+.list {
+	display: flex;
+	max-width: 900px;
+	margin: 40px auto;
+	justify-content: center;
+	gap: 15px;
+	flex-wrap: wrap;
+}
+
+.backlog,
+.process,
+.done {
+	padding: 15px;
+	display: flex;
+	flex-direction: column;
+	border-radius: 8px;
+	gap: 20px;
+}
+
+.backlog {
+	background-color: rgb(230, 230, 230);
+}
+
+.process {
+	background-color: #b8cad3;
+}
+
+.done {
+	background-color: rgba(86, 187, 91, 0.439);
+}

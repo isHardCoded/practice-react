@@ -1,8 +1,0 @@
-.list {
-  display: flex;
-  margin: 0 auto;
-  max-width: 800px;
-  justify-content: center;
-  gap: 15px;
-  flex-wrap: wrap;
-}
